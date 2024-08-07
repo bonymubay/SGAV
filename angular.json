@@ -24,9 +24,12 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/jquery/dist/jquery.min.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -119,6 +122,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "form"
+    }
+  },
+  "defaultProject": "form",
+  "cli": {
+    "analytics": "7daca1a9-1f65-4852-a6d1-7e356801990a"
+  }
 }
